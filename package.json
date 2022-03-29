@@ -1,0 +1,22 @@
+{
+  "name": "js-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run-index": "ts-node src/index.ts",
+    "run-basic": "ts-node src/basic/index.ts",
+    "run-callback": "ts-node src/callback/index.ts",
+    "run-promise": "ts-node src/promise/index.ts",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.23",
+    "ts-node": "^10.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
